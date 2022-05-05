@@ -5,7 +5,8 @@ public class CNPM_BMI {
         final int THUA_CAN = 2;
         final int BEO_PHI = 3;
         final int KHONG_HOP_LE = -1;
-        if(height <= 0.00 || height > 3.00 || weight < 0.0 || weight > 500.0)
+        
+        if (height <= 0.00 || height > 3.00 || weight < 0.0 || weight > 500.0)
         {
             return KHONG_HOP_LE;
         }

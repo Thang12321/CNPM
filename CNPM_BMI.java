@@ -11,7 +11,8 @@ public class CNPM_BMI {
         }
 
         double bmi = (weight / (height * height));
-
+        bmi = Math.ceil(bmi * 100) / 100;
+        
         if (bmi < 18.50) {
             return THIEU_CAN;
         }
